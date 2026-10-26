@@ -1,0 +1,15 @@
+{% include '@Theme/_modal_header.html.twig' with {title: topic ?? 'leads.window.title'|trans} only %}
+
+<div class="modal-body">
+    {% if refusals.form is defined %}<p class="flash flash-error">{{ refusals.form.reason|trans }}</p>{% endif %}
+    <form hx-post="{{ path('leads_take') }}" hx-target="#lead">
+        {{ csrf_field() }}{{ back_field() }}
+        {% if topic %}<input type="hidden" name="topic" value="{{ topic }}">{% endif %}
+        <div class="fields">
+            {% include '@Leads/_fields.html.twig' with {input: input, refusals: refusals, subjects: subjects} only %}
+        </div>
+        <input class="trap" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button type="submit">{{ 'leads.window.send'|trans }}</button>
+        <p class="hint">{{ 'leads.window.privacy'|trans({policy: legal('privacy', 'leads.window.policy'|trans)})|raw }}</p>
+    </form>
+</div>

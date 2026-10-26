@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
+  <file id="messages.en">
+    <unit id="leads.add">
+      <segment>
+        <source>leads.add</source>
+        <target>+ Lead</target>
+      </segment>
+    </unit>
+    <unit id="leads.column.contacts">
+      <segment>
+        <source>leads.column.contacts</source>
+        <target>Contacts</target>
+      </segment>
+    </unit>
+    <unit id="leads.column.number">
+      <segment>
+        <source>leads.column.number</source>
+        <target>Lead</target>
+      </segment>
+    </unit>
+    <unit id="leads.dashboard.new">
+      <segment>
+        <source>leads.dashboard.new</source>
+        <target>New leads</target>
+      </segment>
+    </unit>
+    <unit id="leads.dashboard.overdue">
+      <segment>
+        <source>leads.dashboard.overdue</source>
+        <target>Overdue leads</target>
+      </segment>
+    </unit>
+    <unit id="leads.dashboard.today">
+      <segment>
+        <source>leads.dashboard.today</source>
+        <target>Leads today</target>
+      </segment>
+    </unit>
+    <unit id="leads.dashboard.week">
+      <segment>
+        <source>leads.dashboard.week</source>
+        <target>Leads this week</target>
+      </segment>
+    </unit>
+    <unit id="leads.digest.line">
+      <segment>
+        <source>leads.digest.line</source>
+        <target>lead {number} {name}, due {due, date, ::yMMddHHmm}, {topic}</target>
+      </segment>
+    </unit>
+    <unit id="leads.digest.summary">
+      <segment>
+        <source>leads.digest.summary</source>
+        <target>Overdue leads: {count}</target>
+      </segment>
+    </unit>
+    <unit id="leads.empty">
+      <segment>
+        <source>leads.empty</source>
+        <target>No leads</target>
+      </segment>
+    </unit>
+    <unit id="leads.event.new_lead">
+      <segment>
+        <source>leads.event.new_lead</source>
+        <target>New lead</target>
+      </segment>
+    </unit>
+    <unit id="leads.field.amount">
+      <segment>
+        <source>leads.field.amount</source>
+        <target>Amount</target>
+      </segment>
+    </unit>
+    <unit id="leads.field.arrived">
+      <segment>
+        <source>leads.field.arrived</source>
+        <target>Arrived</target>
+      </segment>
+    </unit>
+    <unit id="leads.field.due">
+      <segment>
+        <source>leads.field.due</source>
+        <target>Due</target>
+      </segment>
+    </unit>
+    <unit id="leads.field.email">
+      <segment>
+        <source>leads.field.email</source>
+        <target>Email</target>
+      </segment>
+    </unit>
+    <unit id="leads.field.manager">
+      <segment>
+        <source>leads.field.manager</source>
+        <target>Manager</target>
+      </segment>
+    </unit>
+    <unit id="leads.field.message">
+      <segment>
+        <source>leads.field.message</source>
+        <target>Message</target>
+      </segment>
+    </unit>
+    <unit id="leads.field.name">
+      <segment>
+        <source>leads.field.name</source>
+        <target>Name</target>
+      </segment>
+    </unit>
+    <unit id="leads.field.page">
+      <segment>
+        <source>leads.field.page</source>
+        <target>Form page</target>
+      </segment>
+    </unit>
+    <unit id="leads.field.phone">
+      <segment>
+        <source>leads.field.phone</source>
+        <target>Phone</target>
+      </segment>
+    </unit>
+    <unit id="leads.field.reason">
+      <segment>
+        <source>leads.field.reason</source>
+        <target>Refusal reason</target>
+      </segment>
+    </unit>
+    <unit id="leads.field.stage">
+      <segment>
+        <source>leads.field.stage</source>
+        <target>Stage</target>
+      </segment>
+    </unit>
+    <unit id="leads.field.topic">
+      <segment>
+        <source>leads.field.topic</source>
+        <target>Topic</target>
+      </segment>
+    </unit>
+    <unit id="leads.filter.manager">
+      <segment>
+        <source>leads.filter.manager</source>
+        <target>Any manager</target>
+      </segment>
+    </unit>
+    <unit id="leads.filter.stage">
+      <segment>
+        <source>leads.filter.stage</source>
+        <target>Any stage</target>
+      </segment>
+    </unit>
+    <unit id="leads.filter.topic">
+      <segment>
+        <source>leads.filter.topic</source>
+        <target>Any topic</target>
+      </segment>
+    </unit>
+    <unit id="leads.flash.added">
+      <segment>
+        <source>leads.flash.added</source>
+        <target>Lead {number} added</target>
+      </segment>
+    </unit>
+    <unit id="leads.flash.dropped">
+      <segment>
+        <source>leads.flash.dropped</source>
+        <target>Lead {number} deleted</target>
+      </segment>
+    </unit>
+    <unit id="leads.flash.noted">
+      <segment>
+        <source>leads.flash.noted</source>
+        <target>Note added</target>
+      </segment>
+    </unit>
+    <unit id="leads.flash.saved">
+      <segment>
+        <source>leads.flash.saved</source>
+        <target>Lead {number} saved</target>
+      </segment>
+    </unit>
+    <unit id="leads.flash.stage_added">
+      <segment>
+        <source>leads.flash.stage_added</source>
+        <target>Stage {label} added</target>
+      </segment>
+    </unit>
+    <unit id="leads.flash.stage_dropped">
+      <segment>
+        <source>leads.flash.stage_dropped</source>
+        <target>Stage removed</target>
+      </segment>
+    </unit>
+    <unit id="leads.flash.taken">
+      <segment>
+        <source>leads.flash.taken</source>
+        <target>The request is sent, we will contact you soon</target>
+      </segment>
+    </unit>
+    <unit id="leads.group.done">
+      <segment>
+        <source>leads.group.done</source>
+        <target>Done</target>
+      </segment>
+    </unit>
+    <unit id="leads.group.new">
+      <segment>
+        <source>leads.group.new</source>
+        <target>New</target>
+      </segment>
+    </unit>
+    <unit id="leads.group.refused">
+      <segment>
+        <source>leads.group.refused</source>
+        <target>Refused</target>
+      </segment>
+    </unit>
+    <unit id="leads.group.work">
+      <segment>
+        <source>leads.group.work</source>
+        <target>In progress</target>
+      </segment>
+    </unit>
+    <unit id="leads.lead.client">
+      <segment>
+        <source>leads.lead.client</source>
+        <target>Client</target>
+      </segment>
+    </unit>
+    <unit id="leads.lead.details">
+      <segment>
+        <source>leads.lead.details</source>
+        <target>Details</target>
+      </segment>
+    </unit>
+    <unit id="leads.lead.drop">
+      <segment>
+        <source>leads.lead.drop</source>
+        <target>Delete lead</target>
+      </segment>
+    </unit>
+    <unit id="leads.lead.drop_confirm">
+      <segment>
+        <source>leads.lead.drop_confirm</source>
+        <target>Delete lead {number} with its feed?</target>
+      </segment>
+    </unit>
+    <unit id="leads.lead.feed">
+      <segment>
+        <source>leads.lead.feed</source>
+        <target>Feed</target>
+      </segment>
+    </unit>
+    <unit id="leads.lead.handling">
+      <segment>
+        <source>leads.lead.handling</source>
+        <target>Handling</target>
+      </segment>
+    </unit>
+    <unit id="leads.lead.note">
+      <segment>
+        <source>leads.lead.note</source>
+        <target>Note</target>
+      </segment>
+    </unit>
+    <unit id="leads.lead.note_add">
+      <segment>
+        <source>leads.lead.note_add</source>
+        <target>Add note</target>
+      </segment>
+    </unit>
+    <unit id="leads.lead.others">
+      <segment>
+        <source>leads.lead.others</source>
+        <target>Leads of this client</target>
+      </segment>
+    </unit>
+    <unit id="leads.lead.title">
+      <segment>
+        <source>leads.lead.title</source>
+        <target>Lead {number}</target>
+      </segment>
+    </unit>
+    <unit id="leads.menu">
+      <segment>
+        <source>leads.menu</source>
+        <target>Leads</target>
+      </segment>
+    </unit>
+    <unit id="leads.new">
+      <segment>
+        <source>leads.new</source>
+        <target>New lead</target>
+      </segment>
+    </unit>
+    <unit id="leads.notice.action">
+      <segment>
+        <source>leads.notice.action</source>
+        <target>Open the lead</target>
+      </segment>
+    </unit>
+    <unit id="leads.notice.subject">
+      <segment>
+        <source>leads.notice.subject</source>
+        <target>{brand}: new lead {number}</target>
+      </segment>
+    </unit>
+    <unit id="leads.notice.title">
+      <segment>
+        <source>leads.notice.title</source>
+        <target>New lead {number}</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.amount">
+      <segment>
+        <source>leads.refusal.amount</source>
+        <target>Amount not recognized</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.contact">
+      <segment>
+        <source>leads.refusal.contact</source>
+        <target>Enter a phone number or an email</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.due">
+      <segment>
+        <source>leads.refusal.due</source>
+        <target>Date and time not recognized</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.email">
+      <segment>
+        <source>leads.refusal.email</source>
+        <target>The email address is not recognized</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.manager">
+      <segment>
+        <source>leads.refusal.manager</source>
+        <target>The manager is one of the administrators</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.message">
+      <segment>
+        <source>leads.refusal.message</source>
+        <target>The message is up to {limit} characters</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.name">
+      <segment>
+        <source>leads.refusal.name</source>
+        <target>The name is up to {limit} characters</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.note">
+      <segment>
+        <source>leads.refusal.note</source>
+        <target>Note — from 1 to {limit} characters</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.often">
+      <segment>
+        <source>leads.refusal.often</source>
+        <target>Too many requests from your address, try again later</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.phone">
+      <segment>
+        <source>leads.refusal.phone</source>
+        <target>The phone number is not recognized</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.reason">
+      <segment>
+        <source>leads.refusal.reason</source>
+        <target>Refusal reason — from 1 to {limit} characters</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.stage">
+      <segment>
+        <source>leads.refusal.stage</source>
+        <target>Choose a stage</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.stage_group">
+      <segment>
+        <source>leads.refusal.stage_group</source>
+        <target>Choose the stage group</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.stage_held">
+      <segment>
+        <source>leads.refusal.stage_held</source>
+        <target>The stage has leads: move them to another stage first</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.stage_label">
+      <segment>
+        <source>leads.refusal.stage_label</source>
+        <target>Stage name — from 1 to {limit} characters</target>
+      </segment>
+    </unit>
+    <unit id="leads.refusal.stage_last">
+      <segment>
+        <source>leads.refusal.stage_last</source>
+        <target>The last stage of a group stays</target>
+      </segment>
+    </unit>
+    <unit id="leads.setting.reasons">
+      <segment>
+        <source>leads.setting.reasons</source>
+        <target>Refusal reasons separated by semicolons</target>
+      </segment>
+    </unit>
+    <unit id="leads.slice.closed">
+      <segment>
+        <source>leads.slice.closed</source>
+        <target>Closed ({count})</target>
+      </segment>
+    </unit>
+    <unit id="leads.slice.new">
+      <segment>
+        <source>leads.slice.new</source>
+        <target>New ({count})</target>
+      </segment>
+    </unit>
+    <unit id="leads.slice.overdue">
+      <segment>
+        <source>leads.slice.overdue</source>
+        <target>Overdue ({count})</target>
+      </segment>
+    </unit>
+    <unit id="leads.slice.today">
+      <segment>
+        <source>leads.slice.today</source>
+        <target>Today ({count})</target>
+      </segment>
+    </unit>
+    <unit id="leads.slice.week">
+      <segment>
+        <source>leads.slice.week</source>
+        <target>This week ({count})</target>
+      </segment>
+    </unit>
+    <unit id="leads.slice.work">
+      <segment>
+        <source>leads.slice.work</source>
+        <target>In progress ({count})</target>
+      </segment>
+    </unit>
+    <unit id="leads.stage.add">
+      <segment>
+        <source>leads.stage.add</source>
+        <target>+ Stage</target>
+      </segment>
+    </unit>
+    <unit id="leads.stage.confirm_drop">
+      <segment>
+        <source>leads.stage.confirm_drop</source>
+        <target>Remove the stage {label}?</target>
+      </segment>
+    </unit>
+    <unit id="leads.stage.empty">
+      <segment>
+        <source>leads.stage.empty</source>
+        <target>No stages</target>
+      </segment>
+    </unit>
+    <unit id="leads.stage.group">
+      <segment>
+        <source>leads.stage.group</source>
+        <target>Group</target>
+      </segment>
+    </unit>
+    <unit id="leads.stage.label">
+      <segment>
+        <source>leads.stage.label</source>
+        <target>{label}</target>
+      </segment>
+    </unit>
+    <unit id="leads.stage.new">
+      <segment>
+        <source>leads.stage.new</source>
+        <target>New stage</target>
+      </segment>
+    </unit>
+    <unit id="leads.stage.title">
+      <segment>
+        <source>leads.stage.title</source>
+        <target>Stage</target>
+      </segment>
+    </unit>
+    <unit id="leads.tab.stages">
+      <segment>
+        <source>leads.tab.stages</source>
+        <target>Stages</target>
+      </segment>
+    </unit>
+    <unit id="leads.window.policy">
+      <segment>
+        <source>leads.window.policy</source>
+        <target>privacy policy</target>
+      </segment>
+    </unit>
+    <unit id="leads.window.privacy">
+      <segment>
+        <source>leads.window.privacy</source>
+        <target>Your data is processed under the {policy}</target>
+      </segment>
+    </unit>
+    <unit id="leads.window.send">
+      <segment>
+        <source>leads.window.send</source>
+        <target>Send</target>
+      </segment>
+    </unit>
+    <unit id="leads.window.title">
+      <segment>
+        <source>leads.window.title</source>
+        <target>Leave a request</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
